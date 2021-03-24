@@ -1,2 +1,9 @@
 body { background-image: url(images/background.jpg); color: white; }
 
+nav a { text-decoration: none;
+		padding-bottom: 15px;
+}
+
+nav a:link { color: white; }
+nav a:visited { color: white; }
+nav a:hover { color: #FF0000; }
