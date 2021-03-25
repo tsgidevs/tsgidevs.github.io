@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TSGI - Orders</title>
+		<meta charset="utf-8">
+
+		<link href="style.css" rel="stylesheet" type="text/css" />
+
+	</head>
+
+	<body>
+
+		<h1>TSGI Order Form</h1>
+		
+		<br/><br/>
+		
+		<p>Once everything is created, add instructions here</p>
+
+		<nav>
+			<ul>
+				&bull;&emsp;
+				<a href="index.html">Home</a>
+				&emsp;&bull;&emsp;
+				<a href="about.html">About</a>
+				&emsp;&bull;&emsp;
+				<a href="sellform.html">Sell To TSGI</a>
+				&emsp;&bull;&emsp;
+			</ul>
+		</nav>
+		
+		<div id="options">
+			<hr noshade>
+			Name:&emsp;&emsp;&ensp;<input type="text" id="name"><br/>
+			
+			Fleet?&emsp;&emsp;&ensp;<input type="checkbox" id="IsFleet" name="IsFleet"><br/>
+			
+			Type:&emsp;&emsp;&ensp;<input type="radio" id="sellTo" name="OrderType" checked> Sell To TSGI&emsp;
+			<input type="radio" id="buyFrom" name="OrderType"> Buy From TSGI<br/>
+			
+			Location:&emsp;
+			<select name = "locations">
+				<option value = "Stegette" selected>Stegette</option>
+				<option value = "Odette">Odette</option>
+				<option value = "Espigoure">Espigoure</option>
+				<option value = "Ney">Ney</option>
+				<option value = "Adrallezoen">Adrallezoen</option>
+			</select>
+			
+			<hr noshade>
+		</div>
+		
+		<table>
+			<tr>
+				<th>Item</th>
+				<th>Qty.</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td><input type="text" id="item"></td>
+				<td><input type="text" id="quantity"></td>
+				<td><input type="button" value="Submit"></td>
+			</tr>
+		</table>
+		
+ 		<br/><br/>
+		
+		<table border="1">
+			<tr>
+				<th width="200">Item</th>
+				<th width="50">Qty.</th>
+				<th width="100">ISK Amount</th>
+			</tr>
+			<!--Add a foreach for the below rows-->
+			<tr>
+				<td>Item 1</td>
+				<td text-align="right">1</td>
+				<td text-align="right">1000</td>
+				<td>Remove Item</td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
