@@ -46,6 +46,10 @@
 				<option value = "Adrallezoen">Adrallezoen</option>
 			</select>
 			
+			<br/>
+			
+			Selling:&ensp;&ensp;&ensp;<input type="radio" id="ore" name="SellItems" checked> Ore&emsp;
+			<input type="radio" id="other" name="SellItems"> Other<br/>
 			<hr noshade>
 		</div>
 		
@@ -69,15 +73,33 @@
 				<th width="200">Item</th>
 				<th width="50">Qty.</th>
 				<th width="100">ISK Amount</th>
+				<th width="100">Actions</th>
 			</tr>
 			<!--Add a foreach for the below rows-->
 			<tr>
 				<td>Item 1</td>
-				<td text-align="right">1</td>
-				<td text-align="right">1000</td>
-				<td>Remove Item</td>
+				<td align="right">1</td>
+				<td align="right">1000</td>
+				<td><a href="">Remove Item</a></td>
 			</tr>
+			<!------------------------------------->
 		</table>
 		
+		<br/>
+		
+		<table border="1">
+			<tr>
+				<td width="300"><b>Contract Amount (Put under "I'll receive")</b><td>
+				<td width="150" align="right">999,999,999</td>
+			</tr>
+			<tr>
+				<td width="300"><b>Contract fees required (in your wallet)</b><td>
+				<td width="150" align="right">999,999,999</td>
+			</tr>
+			<tr>
+				<td width="300"><b>Actual income</b><td>
+				<td width="150" align="right">999,999,999</td>
+			</tr>
+		</table>
 	</body>
 </html>
